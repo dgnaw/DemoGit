@@ -1,0 +1,13 @@
+import d5
+input_tuple = input("Nhap so nguyen phan tach bang dau phay, tao ra mot tuple:")
+t = d5.nhap_so(input_tuple)
+d5.hienthi_tuple(t)
+print("Nua dau, nua cuoi:",d5.hienthi_nuadau_nuacuoi(t))
+# d5.so_chanvaso_le(t)
+# x = int(input("Nhap so nguyen x:"))
+# t = d5.xoaX_danhap(t,x)
+# print("Tuple sau khi thay doi:",t)
+# t = d5.solonnhat(t)
+# print("So lon nhat:",t)
+# print("Tuple thay doi:",d5.thayam_bang0(t))
+print("Tuple sau khi tach:",d5.tach_tuple(t))
